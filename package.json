@@ -1,11 +1,11 @@
 {
-  "name": "angular-electron",
+  "name": "platzi-desktop-app",
   "version": "9.0.3",
   "description": "Angular 11 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "homepage": "https://github.com/HackTzi/App-desktop-platzi",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Hacktzi Team",
+    "email": "hacktzi@protonmail.com"
   },
   "keywords": [
     "angular",
