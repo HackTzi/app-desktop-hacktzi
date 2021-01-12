@@ -1,0 +1,19 @@
+{
+  "PAGES": {
+    "HOME": {
+        "TITLE": "Inicio"
+    }
+  },
+  "COMPONENTS": {
+    "PAGE_NOT_FOUND": {
+      "TITLE" : "Pagina no encontrada"
+      }
+  },
+  "MODALS": {
+
+  },
+  "DIRECTIVES": {
+
+  }
+
+}
