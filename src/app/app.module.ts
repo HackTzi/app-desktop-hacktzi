@@ -24,9 +24,15 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 
 import { AngularMaterialModule } from './angular-material.module';
 import { AuthComponent } from './auth/auth.component';
+import { SearchComponent } from './search/search.component';
+import { MyCoursesComponent } from './my-courses/my-courses.component';
+import { BlogComponent } from './blog/blog.component';
+import { ForumComponent } from './forum/forum.component';
+import { AgendaComponent } from './agenda/agenda.component';
+import { TvComponent } from './tv/tv.component';
 
 @NgModule({
-  declarations: [AppComponent, AuthComponent],
+  declarations: [AppComponent, AuthComponent, SearchComponent, MyCoursesComponent, BlogComponent, ForumComponent, AgendaComponent, TvComponent],
   imports: [
     BrowserModule,
     FormsModule,
