@@ -12,7 +12,9 @@
       "START": "Start"
     },
     "HOME": {
-        "TITLE": "Home"
+        "TITLE": "Home",
+        "KEEP_LEARNING": "Keep learning",
+        "WHATS_NEW": "What's new"
     },
     "SEARCH": {
       "TITLE": "Search"

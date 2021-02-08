@@ -12,7 +12,9 @@
       "START": "Inicio"
     },
     "HOME": {
-        "TITLE": "Inicio"
+        "TITLE": "Inicio",
+        "KEEP_LEARNING": "Seguir aprendiendo",
+        "WHATS_NEW": "Novedades"
     },
     "SEARCH": {
       "TITLE": "Buscar"
