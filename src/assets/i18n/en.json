@@ -1,13 +1,42 @@
 {
   "PAGES": {
+    "AUTH": {
+      "TITLE": "Log in",
+      "EMAIL": "Email",
+      "PASSWORD": "Password",
+      "FORGOTTEN_PASSWORD": "Forgot your password?",
+      "START_WITH": "Or login with",
+      "NO_ACCOUNT":"Don't have account?",
+      "REGISTER":"Sign Up",
+      "ENTERPRISE_ACCOUNT":"Sign in to your business account",
+      "START": "Start"
+    },
     "HOME": {
         "TITLE": "Home"
+    },
+    "SEARCH": {
+      "TITLE": "Search"
+    },
+    "MY_COURSES": {
+      "TITLE":"My courses"
+    },
+    "BLOG":{
+      "TITLE": "Blog"
+    },
+    "FORUM":{
+      "TITLE":"Forum"
+    },
+    "AGENDA": {
+      "TITLE": "Agenda"
+    },
+    "TV": {
+      "TITLE": "Tv"
     }
   },
   "COMPONENTS": {
     "PAGE_NOT_FOUND": {
-      "TITLE" : "Page not found"
-    }
+      "TITLE" : "Page Not Found"
+      }
   },
   "MODALS": {
 
