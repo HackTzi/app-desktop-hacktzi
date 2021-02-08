@@ -1,7 +1,36 @@
 {
   "PAGES": {
+    "AUTH": {
+      "TITLE": "Iniciar sesión",
+      "EMAIL": "Correo electrónico",
+      "PASSWORD": "Contraseña",
+      "FORGOTTEN_PASSWORD": "¿Olvidaste tu contraseña?",
+      "START_WITH": "O inicia con",
+      "NO_ACCOUNT":"¿No tienes cuenta?",
+      "REGISTER":"Regístrate",
+      "ENTERPRISE_ACCOUNT":"Ingresa a tu cuenta empresarial",
+      "START": "Inicio"
+    },
     "HOME": {
         "TITLE": "Inicio"
+    },
+    "SEARCH": {
+      "TITLE": "Buscar"
+    },
+    "MY_COURSES": {
+      "TITLE":"Mis cursos"
+    },
+    "BLOG":{
+      "TITLE": "Blog"
+    },
+    "FORUM":{
+      "TITLE":"Foro"
+    },
+    "AGENDA": {
+      "TITLE": "Agenda"
+    },
+    "TV": {
+      "TITLE": "Tv"
     }
   },
   "COMPONENTS": {
