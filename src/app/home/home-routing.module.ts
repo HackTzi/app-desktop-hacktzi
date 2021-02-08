@@ -8,20 +8,18 @@ import { AgendaComponent } from './agenda/agenda.component';
 import { BlogComponent } from './blog/blog.component';
 import { ForumComponent } from './forum/forum.component';
 import { TvComponent } from './tv/tv.component';
+import { AuthGuard } from '../guards/auth.guard';
 
 const routes: Routes = [
-  {
-    path: 'home', component: HomeComponent, children: [
-      // { path: '', redirectTo: '/home', pathMatch: 'full' },
-      // { path: 'home', component: HomeComponent },
-      { path: 'search', component: SearchComponent },
-      { path: 'my-courses', component: MyCoursesComponent },
-      { path: 'blog', component: BlogComponent },
-      { path: 'forum', component: ForumComponent },
-      { path: 'agenda', component: AgendaComponent },
-      { path: 'tv', component: TvComponent },
-    ]
-  }
+  // { path: 'app', canActivate: [AuthGuard], redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', canActivate: [AuthGuard], component: HomeComponent },
+  { path: 'search', canActivate: [AuthGuard], component: SearchComponent },
+  { path: 'my-courses', canActivate: [AuthGuard], component: MyCoursesComponent },
+  { path: 'blog', canActivate: [AuthGuard], component: BlogComponent },
+  { path: 'forum', canActivate: [AuthGuard], component: ForumComponent },
+  { path: 'agenda', canActivate: [AuthGuard], component: AgendaComponent },
+  { path: 'tv', canActivate: [AuthGuard], component: TvComponent },
+
 ];
 
 @NgModule({
