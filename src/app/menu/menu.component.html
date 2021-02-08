@@ -1,0 +1,28 @@
+
+<mat-toolbar class="example-header">
+  Header
+  <!-- This is just for test -->
+  <button mat-button routerLink="../auth" (click)="logout()">Cerrar sesion TEST</button>
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+
+  <mat-sidenav #sidenav mode="side" opened class="example-sidenav"
+    fixedInViewport="false" fixedTopGap="0" fixedBottomGap="0">
+    <!-- MENU OPTIONS -->
+    <button mat-button routerLink="home">{{ 'PAGES.HOME.TITLE' | translate }}</button>
+    <button mat-button routerLink="search">{{ 'PAGES.SEARCH.TITLE' | translate }}</button>
+    <button mat-button routerLink="my-courses">{{ 'PAGES.MY_COURSES.TITLE' | translate }}</button>
+    <button mat-button routerLink="blog">{{ 'PAGES.BLOG.TITLE' | translate }}</button>
+    <button mat-button routerLink="forum">{{ 'PAGES.FORUM.TITLE' | translate}}</button>
+    <button mat-button routerLink="agenda">{{ 'PAGES.AGENDA.TITLE'|translate }}</button>
+    <button mat-button routerLink="tv">{{ 'PAGES.TV.TITLE' | translate }}</button>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <!-- Router outlet -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+<mat-toolbar class="example-footer">Footer</mat-toolbar>
+

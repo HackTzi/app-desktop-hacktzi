@@ -1,0 +1,18 @@
+<form [formGroup]="authForm">
+  <mat-card>
+    <mat-card-header>
+      <img mat-card-image src="" alt="Photo of platzi logo">
+      <mat-card-title>{{'PAGES.AUTH.TITLE' | translate}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="margin:auto;">
+      <mat-form-field>
+        <input formControlName="username" matInput placeholder="{{'PAGES.AUTH.EMAIL'|translate}}" type="email">
+      </mat-form-field>
+      <mat-form-field>
+        <input formControlName="password" matInput placeholder="{{'PAGES.AUTH.PASSWORD'|translate}}" type="password">
+      </mat-form-field>
+      <button [disabled]="!authForm.valid" color="accent" mat-raised-button (click)="login()">{{'PAGES.AUTH.START'|translate}}</button>
+    </mat-card-content>
+  </mat-card>
+</form>
+

@@ -23,9 +23,11 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 
 import { AngularMaterialModule } from './angular-material.module';
+import { AuthComponent } from './auth/auth.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AuthComponent, MenuComponent],
   imports: [
     BrowserModule,
     FormsModule,
