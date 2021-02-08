@@ -1,1 +1,28 @@
-<p>{{ 'PAGES.HOME.TITLE' | translate }}</p>
+<h3>{{ 'PAGES.HOME.KEEP_LEARNING' | translate }}</h3>
+
+<div *ngFor="let element of keep_learning">
+  <mat-card style="max-width: 398px;">
+    <mat-card-header>
+      <div mat-card-avatar style="background-size: cover; background-image: url(https://material.angular.io/assets/img/examples/shiba2.jpg);"></div>
+      <mat-card-subtitle>{{element.course}}</mat-card-subtitle>
+      <mat-card-title>{{element.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <!-- TODO: Add components -->
+    </mat-card-content>
+  </mat-card>
+
+</div>
+
+<h3>{{ 'PAGES.HOME.WHATS_NEW' | translate }}</h3>
+
+<div *ngFor="let element of whats_new">
+  <mat-card style="max-width: 398px;">
+    <mat-card-header>
+      <div mat-card-avatar style="background-size: cover; background-image: url(https://material.angular.io/assets/img/examples/shiba2.jpg);"></div>
+      <mat-card-title>{{element.title}}</mat-card-title>
+      <mat-card-subtitle>{{element.professor}}</mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+
+</div>
