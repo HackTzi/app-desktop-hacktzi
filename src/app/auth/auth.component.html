@@ -1,18 +1,32 @@
+<!-- TODO: Here we need to add style to this component -->
+<app-login-banner></app-login-banner>
 <form [formGroup]="authForm">
   <mat-card>
     <mat-card-header>
-      <img mat-card-image src="" alt="Photo of platzi logo">
-      <mat-card-title>{{'PAGES.AUTH.TITLE' | translate}}</mat-card-title>
+      <img mat-card-image src="assets/paltzilogo.png" alt="Photo of platzi logo">
+      <mat-card-title>{{ pageName.concat('TITLE') | translate}}</mat-card-title>
     </mat-card-header>
     <mat-card-content style="margin:auto;">
       <mat-form-field>
-        <input formControlName="username" matInput placeholder="{{'PAGES.AUTH.EMAIL'|translate}}" type="email">
+        <input formControlName="username" matInput placeholder="{{pageName.concat('EMAIL') | translate}}" type="email">
+        <mat-icon matSuffix svgIcon="metro-mail"></mat-icon>
       </mat-form-field>
       <mat-form-field>
-        <input formControlName="password" matInput placeholder="{{'PAGES.AUTH.PASSWORD'|translate}}" type="password">
+        <input formControlName="password" matInput placeholder="{{pageName.concat('PASSWORD') | translate}}" [type]="hidePassword ? 'password' : 'text'">
+         <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hidePassword">
+          <mat-icon svgIcon="{{ hidePassword ? 'visibility-filled' : 'visibility-filled' }}"></mat-icon>
+        </button>
       </mat-form-field>
-      <button [disabled]="!authForm.valid" color="accent" mat-raised-button (click)="login()">{{'PAGES.AUTH.START'|translate}}</button>
+      <button [disabled]="!authForm.valid" color="accent" mat-raised-button (click)="login()">{{pageName.concat('START') | translate}}</button>
+      <p>{{ pageName.concat('START_WITH') | translate}}</p>
+      <button mat-icon-button>
+        <mat-icon svgIcon="metro-facebook"></mat-icon>
+      </button>
+      <button mat-icon-button>
+        <mat-icon svgIcon="metro-twitter"></mat-icon>
+      </button>
+      <p> {{ pageName.concat('NO_ACCOUNT') | translate}} <strong><a>{{pageName.concat('REGISTER') | translate}}</a></strong></p>
+      <p><a>{{ pageName.concat('ENTERPRISE_ACCOUNT') | translate}}</a></p>
     </mat-card-content>
   </mat-card>
 </form>
-

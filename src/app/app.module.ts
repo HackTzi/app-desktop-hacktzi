@@ -17,6 +17,9 @@ import { HomeModule } from './home/home.module';
 
 import { AppComponent } from './app.component';
 
+// Services
+import { IconSanitizerService } from './services/icon-sanitizer.service';
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -48,7 +51,9 @@ import { MenuComponent } from './menu/menu.component';
       }
     })
   ],
-  providers: [],
+  providers: [
+    IconSanitizerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
