@@ -3,7 +3,6 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { PageNotFoundComponent } from './shared/components';
 
 // Routes
-import { HomeRoutingModule } from './home/home-routing.module';
 
 // Guards
 import { AuthGuard } from './guards/auth.guard';
@@ -27,8 +26,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes, {
       relativeLinkResolution: 'legacy',
       preloadingStrategy: PreloadAllModules
-    }),
-    HomeRoutingModule,
+    })
   ],
   exports: [RouterModule]
 })
