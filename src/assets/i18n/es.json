@@ -1,50 +1,54 @@
 {
-  "PAGES": {
-    "AUTH": {
-      "TITLE": "Iniciar sesión",
-      "EMAIL": "Correo electrónico",
-      "PASSWORD": "Contraseña",
-      "FORGOTTEN_PASSWORD": "¿Olvidaste tu contraseña?",
-      "START_WITH": "O inicia con",
-      "NO_ACCOUNT":"¿No tienes cuenta?",
-      "REGISTER":"Regístrate",
-      "ENTERPRISE_ACCOUNT":"Ingresa a tu cuenta empresarial",
-      "START": "Inicio"
+    "PAGES": {
+        "AUTH": {
+            "TITLE": "Iniciar sesión",
+            "EMAIL": "Correo electrónico",
+            "PASSWORD": "Contraseña",
+            "FORGOTTEN_PASSWORD": "¿Olvidaste tu contraseña?",
+            "START_WITH": "O inicia con",
+            "NO_ACCOUNT": "¿No tienes cuenta?",
+            "REGISTER": "Regístrate",
+            "ENTERPRISE_ACCOUNT": "Ingresa a tu cuenta empresarial",
+            "START": "Inicio"
+        },
+        "HOME": {
+            "TITLE": "Inicio",
+            "KEEP_LEARNING": "Seguir aprendiendo",
+            "WHATS_NEW": "Novedades"
+        },
+        "SEARCH": {
+            "TITLE": "Buscar",
+            "SUGGESTIONS": "Sugerencias",
+            "CATEGORIES": "Categorias",
+            "PROFESSOR": "Profesor",
+            "NEW": "Nuevo"
+        },
+        "MY_COURSES": {
+            "TITLE": "Mis cursos"
+        },
+        "BLOG": {
+            "TITLE": "Blog"
+        },
+        "FORUM": {
+            "TITLE": "Foro"
+        },
+        "AGENDA": {
+            "TITLE": "Agenda"
+        },
+        "TV": {
+            "TITLE": "Tv"
+        }
     },
-    "HOME": {
-        "TITLE": "Inicio",
-        "KEEP_LEARNING": "Seguir aprendiendo",
-        "WHATS_NEW": "Novedades"
+    "COMPONENTS": {
+        "PAGE_NOT_FOUND": {
+            "TITLE": "Pagina no encontrada"
+        }
     },
-    "SEARCH": {
-      "TITLE": "Buscar"
+    "MODALS": {
+
     },
-    "MY_COURSES": {
-      "TITLE":"Mis cursos"
-    },
-    "BLOG":{
-      "TITLE": "Blog"
-    },
-    "FORUM":{
-      "TITLE":"Foro"
-    },
-    "AGENDA": {
-      "TITLE": "Agenda"
-    },
-    "TV": {
-      "TITLE": "Tv"
+    "DIRECTIVES": {
+
     }
-  },
-  "COMPONENTS": {
-    "PAGE_NOT_FOUND": {
-      "TITLE" : "Pagina no encontrada"
-      }
-  },
-  "MODALS": {
-
-  },
-  "DIRECTIVES": {
-
-  }
 
 }

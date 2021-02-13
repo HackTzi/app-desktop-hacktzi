@@ -1,1 +1,29 @@
-<p>search works!</p>
+<div class="search">
+    <h4 class="search__title">{{ 'PAGES.SEARCH.SUGGESTIONS' | translate }}</h4>
+
+    <mat-card *ngFor="let item of courses" class="search__card-suggestions">
+
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img width="45" [src]="item.img" alt="">
+            </div>
+            <mat-card-title>{{ item.title }}</mat-card-title>
+            <mat-card-subtitle>{{ 'PAGES.SEARCH.PROFESSOR' | translate }}: {{ item.teacher }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-actions>
+            <button mat-raised-button [color]="item.color">{{ 'PAGES.SEARCH.NEW' | translate }}</button>
+        </mat-card-actions>
+    </mat-card>
+
+    <h4 style="margin-top: 20px;" class="search__title">{{ 'PAGES.SEARCH.CATEGORIES' | translate }}</h4>
+
+    <mat-card class="search__card-categories">
+        <div>
+            <img src="../../../assets/images/dev.png" alt="">
+        </div>
+        <mat-card-header>
+            <mat-card-title>Desarrolo</mat-card-title>
+        </mat-card-header>
+    </mat-card>
+
+</div>

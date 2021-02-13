@@ -1,0 +1,65 @@
+.search {
+    padding: 30px;
+}
+
+.search__title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search__card-suggestions {
+    width: 28%;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.search__card-suggestions mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+}
+
+.search__card-suggestions mat-card-header.mat-card-header {
+    height: 70px;
+}
+
+.search__card-suggestions mat-card-actions button {
+    border-radius: 25px;
+    line-height: 25px;
+}
+
+.search__card-categories {
+    width: 20%;
+    height: 140px;
+    // background-image: url(../../../assets/images/dev.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    position: relative;
+    // background-position: center;
+}
+
+.search__card-categories mat-card-header {
+    background-color: rgba(51, 177, 58, .7);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    z-index: 2;
+}
+
+.search__card-categories img {
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+}
+
+.search__card-categories mat-card-header mat-card-title {
+    margin: 5px 0;
+    font-size: 15px;
+    color: white;
+}

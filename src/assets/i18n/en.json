@@ -1,49 +1,53 @@
 {
-  "PAGES": {
-    "AUTH": {
-      "TITLE": "Log in",
-      "EMAIL": "Email",
-      "PASSWORD": "Password",
-      "FORGOTTEN_PASSWORD": "Forgot your password?",
-      "START_WITH": "Or login with",
-      "NO_ACCOUNT":"Don't have account?",
-      "REGISTER":"Sign Up",
-      "ENTERPRISE_ACCOUNT":"Sign in to your business account",
-      "START": "Start"
+    "PAGES": {
+        "AUTH": {
+            "TITLE": "Log in",
+            "EMAIL": "Email",
+            "PASSWORD": "Password",
+            "FORGOTTEN_PASSWORD": "Forgot your password?",
+            "START_WITH": "Or login with",
+            "NO_ACCOUNT": "Don't have account?",
+            "REGISTER": "Sign Up",
+            "ENTERPRISE_ACCOUNT": "Sign in to your business account",
+            "START": "Start"
+        },
+        "HOME": {
+            "TITLE": "Home",
+            "KEEP_LEARNING": "Keep learning",
+            "WHATS_NEW": "What's new"
+        },
+        "SEARCH": {
+            "TITLE": "Search",
+            "SUGGESTIONS": "Suggestions",
+            "CATEGORIES": "Categories",
+            "PROFESSOR": "Professor",
+            "NEW": "New"
+        },
+        "MY_COURSES": {
+            "TITLE": "My courses"
+        },
+        "BLOG": {
+            "TITLE": "Blog"
+        },
+        "FORUM": {
+            "TITLE": "Forum"
+        },
+        "AGENDA": {
+            "TITLE": "Agenda"
+        },
+        "TV": {
+            "TITLE": "Tv"
+        }
     },
-    "HOME": {
-        "TITLE": "Home",
-        "KEEP_LEARNING": "Keep learning",
-        "WHATS_NEW": "What's new"
+    "COMPONENTS": {
+        "PAGE_NOT_FOUND": {
+            "TITLE": "Page Not Found"
+        }
     },
-    "SEARCH": {
-      "TITLE": "Search"
+    "MODALS": {
+
     },
-    "MY_COURSES": {
-      "TITLE":"My courses"
-    },
-    "BLOG":{
-      "TITLE": "Blog"
-    },
-    "FORUM":{
-      "TITLE":"Forum"
-    },
-    "AGENDA": {
-      "TITLE": "Agenda"
-    },
-    "TV": {
-      "TITLE": "Tv"
+    "DIRECTIVES": {
+
     }
-  },
-  "COMPONENTS": {
-    "PAGE_NOT_FOUND": {
-      "TITLE" : "Page Not Found"
-      }
-  },
-  "MODALS": {
-
-  },
-  "DIRECTIVES": {
-
-  }
 }
